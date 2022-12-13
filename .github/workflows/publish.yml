@@ -10,7 +10,7 @@ jobs:
         with:
           registry: ghcr.io
           username: H0lgi
-          password: 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
+          password: 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
       - name: Build the hello-docker Docker image
         run: |
           docker build . --tag ghcr.io/deselikem/hello-docker-gcr-demo:latest
